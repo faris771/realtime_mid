@@ -1,0 +1,14 @@
+num_agency_members=5
+resistance_group_interval=10
+resistance_group_min_members=5
+resistance_group_max_members=20
+military_group_spy_chance=0.3
+civilian_spy_chance=0.1
+suspicion_threshold=0.7
+questioning_threshold=0.5
+severe_injury_recovery_time=30
+light_injury_recovery_time=10
+max_killed_resistance_members=50
+max_injured_resistance_members=100
+agency_member_target_time=60
+
