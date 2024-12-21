@@ -1,31 +1,39 @@
 1. Initialize initial  values in arguments.txt
 2. Read the values from arguments.txt, and store them in the variables
+
+
 3.  Create processes for civillians, resistance groups, and counter espionaege agency
-4.  Create threads for resistance group members and counter espionage agency members
+
+4. Create threads for resistance group members and counter espionage agency members
 5. Simulate the creation of resistance groups at user-defined intervals read from argument.txt
 
-6.  Assign random number of members to each resistance group at user-defined intervals read from argument.txt
+6.  Assign random number of members to each resistance group at user-defined intervals read from argument.txt as well
 
-7. Determine the type of resistance group, social (does social activiteis)  or millitary
+7. determine the type of resistance group, social (does social activiteis)  or millitary
 
-8.  Simulate potential infiltration by spies in resistance groups ( without seroius injuries)
-9. Simulate interactions between civilians and resistance groups (civilians)
+8.  Simulate potential infiltration by spies in resistance groups ( which is without seroius injuries)
 
-10. collect data on interactions and time spent with resistence groups  .
+9. Simulate interactions between civillians and resistance groups (civilians)
+
+10. collect data on interactions and time spent with resistence groups  the more time spent the more data colleceted sensitive data  .
+
 11.   analyze collected data to identify potential spies
-12.  Simulate enemy targeting resistance groups based on spy information
+12.  Simulate enemy targeting resistance groups based on spy information, and time spent
+
+13.  handle consequences of enemy attacks (killed, injured, or caught   members)
+
+14.  replace killed or injured resistance  members with new created members
+
+15. Simulate counter- espionage agency members  analyzing data regularly.
+
+16.  Check   about potential infiltrated  spies
 
 
-13.  handle consequences of enemy attacks (killed, injured, or caught members)
-14.  Replace killed or injured resistance members with new members
-
-15. Simulate counter-espionage agency members analyzing data regularly.
-16.  Check   about potential infiltrated spies
 17. Arrest potential spies when suspicion rate exceeds the user-defined  threshold
 18. Question arrested potential spies and decide on release or imprisonment
 
 
-19.   Handle outcomes of questioning (release or imprisonment)
+19.   Handle outcomes of questioning release or imprisonment
 
 20.  Simulate counter espioneage agency members being targeted by the enemy
 
@@ -34,4 +42,7 @@
 22.  End simulation if any termination condition is met
 
 23.  report simulation events and outcomes for analysis
+
+
+
 24. Clean up resources and terminate processes and threads
